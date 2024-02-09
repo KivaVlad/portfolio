@@ -1,0 +1,35 @@
+.item {
+    display: block;
+    width: 100%;
+    z-index: 5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--neon-shadow);
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+    h2 {
+        font-family: 'Ferry';
+        font-size: 20px;
+        color: var(--violet);
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--gray-50);
+    }
+}

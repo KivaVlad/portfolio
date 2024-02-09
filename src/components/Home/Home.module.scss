@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.resume__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    width: 120px;
+    height: 50px;
+    color: var(--violet);
+    border: 2px solid var(--violet);
+    transition: .2s ease;
+    cursor: pointer;
+
+    &:hover {
+        height: 80px;
+        color: var(--gray-50);
+        background-color: var(--violet);
+    }
+
+    span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.title {
+    font-family: 'Ferry';
+    font-size: 58px;
+    line-height: 62px;
+    color: var(--gray-50);
+
+    span {
+        color: var(--violet);
+    }
+}

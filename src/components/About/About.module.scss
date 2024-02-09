@@ -1,0 +1,39 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 50%;
+    margin-top: 140px;
+
+    .title {
+        font-family: 'Ferry';
+        font-size: 48px;
+        color: var(--main-color);
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 500;
+        color: var(--gray-50);
+    }
+}
+
+.image__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+
+    img {
+        border-radius: 20px;
+        box-shadow: var(--neon-shadow);
+    }
+}

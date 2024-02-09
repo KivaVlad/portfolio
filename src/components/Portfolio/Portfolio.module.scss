@@ -1,0 +1,18 @@
+.section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Ferry';
+    font-size: 48px;
+    color: var(--main-color);
+    margin-top: 40px;
+}
+
+.slider__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 60px 0;
+}
