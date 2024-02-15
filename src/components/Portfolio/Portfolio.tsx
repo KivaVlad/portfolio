@@ -13,7 +13,7 @@ export const Portfolio: React.FC = () => {
             x: 0,
             opacity: 1,
             transition: { 
-                delay: custom * 0.5 
+                delay: custom * 0.2 
             }
         })
     }
@@ -26,6 +26,10 @@ export const Portfolio: React.FC = () => {
             className={styles.section}
         >
             <motion.h2 variants={textAnimation} className={styles.title}>Мои работы</motion.h2>
+            <motion.p variants={textAnimation} className={styles.subtitle}>
+                Здесь вы можете посмотреть примеры моих работ. <br />
+                Больше проектов в моем <a href="https://github.com/KivaVlad/" target='_blank' rel="noreferrer">GitHub</a>
+            </motion.p>
         
             <div className={styles.slider__wrapper}>
                 {projects.map((item) => (

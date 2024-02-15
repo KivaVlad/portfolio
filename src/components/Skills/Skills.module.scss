@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.title {
+    font-family: 'Ferry';
+    font-size: 48px;
+    color: var(--main-color);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.skills__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.typewriter__wrapper {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--gray-50);
+    width: 45%;
+}

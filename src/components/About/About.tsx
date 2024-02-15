@@ -29,7 +29,6 @@ export const About: React.FC = () => {
                 <motion.p custom={2} variants={textAnimation}>
                     Меня зовут Кива Владислав. Я специализируюсь на создании красивого и надежного внешнего интерфейса для различных сервисов и приложений. <br /> <br />
                     Основной профиль - фронтенд разработка. Люблю учиться, получать новые знания и изучать новые технологии. <br /> <br />
-                    Навыки: JavaScript, TypeScript, React, Redux, HTML, CSS, Sass, Git
                 </motion.p>
             </div>
             <motion.div custom={3} variants={textAnimation} className={styles.image__wrapper}>

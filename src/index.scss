@@ -98,31 +98,13 @@ legend {
 	display: block;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
-input[type='number'] {
-    --moz-appearance: textfield;
-}
-
 /* Colors */
 :root {
     --gray-50: #F6F8FF;
-    --gray-100: #697C9A;
-    --gray-200: #4B6A9B;
-    --gray-300: #2B3442;
-    --gray-400: #1E2A47;
-    --gray-500: #141D2F;
-  
     --main-color: #0079FF;
-    --main-color-hover: #60ABFF;
-    --white: #FFF;
-    --red: #F74646;
-
-    --black-500: #080808;
     --violet: #bc13fe;
+    --gray-500: #141D2F;
+    --black-500: #080808;
     --neon-shadow:  
         0 0 .2rem #fff,
         0 0 .2rem #fff,
@@ -135,7 +117,6 @@ input[type='number'] {
 html {
     scroll-behavior: smooth;
 }
-  
 
 body {
     font-family: 'Inter', sans-serif;

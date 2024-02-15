@@ -1,0 +1,26 @@
+.section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.text__wrapper {
+    margin-top: 60px;
+
+    h2 {
+        font-family: 'Ferry';
+        font-size: 48px;
+        color: var(--main-color);
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 500;
+        color: var(--gray-50);
+    }
+}
+
+.contact {
+    
+}

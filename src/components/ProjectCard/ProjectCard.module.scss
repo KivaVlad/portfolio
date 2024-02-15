@@ -8,27 +8,61 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 480px;
+    min-height: 300px;
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
     box-shadow: var(--neon-shadow);
+}
+
+.stack_icons__wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: var(--black-500);
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .text__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .2s ease;
+
+    &:hover {
+        opacity: .9;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        background-color: var(--black-500);
+    }
 
     h2 {
         font-family: 'Ferry';
         font-size: 20px;
-        color: var(--violet);
+        color: var(--main-color);
         text-align: center;
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 26px;
         font-weight: 500;
         color: var(--gray-50);
     }
