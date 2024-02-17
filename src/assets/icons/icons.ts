@@ -9,6 +9,7 @@ import tsIcon from './typescript.svg';
 import mailIcon from './mail.png';
 import gitHubLogo from './github.png';
 import tgLogo from './tg.png';
+import linkedInLogo from './linkedin.png';
 
 
 export { 
@@ -23,4 +24,5 @@ export {
     mailIcon,
     gitHubLogo,
     tgLogo,
+    linkedInLogo
 }

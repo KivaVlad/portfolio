@@ -10,7 +10,7 @@ const ProjectCard: React.FC<IProject> = forwardRef((props, ref: any) => {
         <a ref={ref} href={link} target="_blank" rel="noreferrer" className={styles.item}>
             <div className={styles.container}>
                 <div className={styles.stack_icons__wrapper}>
-                    {stack.map((item) => <img src={item} alt="" />)}
+                    {stack.map((item, index) => <img key={index} src={item} alt="" />)}
                 </div>
                 <div className={styles.image__wrapper}>
                     <img src={img} />

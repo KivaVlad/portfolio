@@ -18,3 +18,9 @@ export interface ISkills {
         icons: ISkillsOptions[]
     }
 }
+
+export interface IContacts {
+    mail: string;
+    telegram: string;
+    linkedIn: string;
+}

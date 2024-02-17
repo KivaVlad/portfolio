@@ -25,7 +25,7 @@ export const About: React.FC = () => {
             className={styles.section}
         >
             <div className={styles.text__wrapper}>
-                <motion.h1 custom={1} variants={textAnimation} className={styles.title}>Обо мне</motion.h1>
+                <motion.h2 custom={1} variants={textAnimation}>Обо мне</motion.h2>
                 <motion.p custom={2} variants={textAnimation}>
                     Меня зовут Кива Владислав. Я специализируюсь на создании красивого и надежного внешнего интерфейса для различных сервисов и приложений. <br /> <br />
                     Основной профиль - фронтенд разработка. Люблю учиться, получать новые знания и изучать новые технологии. <br /> <br />

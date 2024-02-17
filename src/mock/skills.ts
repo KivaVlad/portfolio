@@ -8,8 +8,8 @@ export const skills: ISkills[] = [
             icons: [
                 { img: htmlIcon, description: 'HTML' },
                 { img: cssIcon, description: 'CSS' },
-                { img: sassIcon, description: 'Sass' },
-                { img: jsIcon, description: 'JavaScript' }
+                { img: jsIcon, description: 'JavaScript' },
+                { img: gitIcon, description: 'Git' },
             ]
         }
     }, 
@@ -20,7 +20,7 @@ export const skills: ISkills[] = [
                 { img: reactIcon, description: 'React' },
                 { img: reduxIcon, description: 'Redux' },
                 { img: tsIcon, description: 'TypeScript' },
-                { img: gitIcon, description: 'Git' },
+                { img: sassIcon, description: 'Sass' },
             ]
         }
     },

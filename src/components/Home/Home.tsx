@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { links } from '../../mock/links';
 import styles from './Home.module.scss';
 
 export const Home: React.FC = () => {
@@ -37,9 +38,18 @@ export const Home: React.FC = () => {
             viewport={{ once: true }}
             className={styles.section}
         >
-            <motion.div custom={5} variants={divAnimation} className={styles.resume__wrapper}>
-                <span>Резюме</span>
-            </motion.div>
+            <motion.a 
+                href={links.portfolio} 
+                target="_blank" 
+                rel="noreferrer"
+                custom={5} 
+                variants={divAnimation} 
+                className={styles.resume__wrapper}
+            >
+                <span>
+                    Резюме
+                </span>
+            </motion.a>
 
             <div className={styles.text__wrapper}>
                 <motion.h1 custom={1} variants={textAnimation} className={styles.title}>Привет!</motion.h1>
