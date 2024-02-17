@@ -24,13 +24,13 @@
 
 .navbar {
     @media (max-width: 700px) {
-        transition: .2s ease;
+        transition: .4s ease;
         transform: translateX(-140px);
     }
 }
 
 .navbar__active {
-    transition: .2s ease;
+    transition: .4s ease;
     transform: translateX(0);
 }
 
@@ -42,13 +42,13 @@
     @media (max-width: 700px) {
         display: block;
         margin-top: 10px;
-        width: 80px;
-        height: 80px;
+        width: 72px;
+        height: 72px;
         border-radius: 50%;
         box-shadow: var(--neon-shadow);
         z-index: 99;
         background-color: black;
-        transition: .2s ease;
+        transition: .4s ease;
         transform: translateX(0);
     }
 }
@@ -63,13 +63,13 @@
     @media (max-width: 700px) {
         display: block;
         margin-top: 10px;
-        width: 80px;
-        height: 80px;
+        width: 72px;
+        height: 72px;
         border-radius: 50%;
         box-shadow: var(--neon-shadow);
         z-index: 99;
         background-color: black;
-        transition: .2s ease;
+        transition: .4s ease;
         transform: translateX(-140px);
     }
 }
