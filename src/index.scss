@@ -121,6 +121,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--black-500);
+    position: relative;
 
     &::-webkit-scrollbar {
         width: .3rem;
@@ -136,4 +137,17 @@ body {
         width: .3rem;
         height: 1rem;
     }
+}
+
+.spaceship__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    opacity: .7;
 }
