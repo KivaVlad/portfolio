@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { projects } from '../../mock/projects';
-import styles from './Portfolio.module.scss';
 import { MProjectCard } from '../ProjectCard/ProjectCard';
+import styles from './Portfolio.module.scss';
 
 export const Portfolio: React.FC = () => {
     const textAnimation = {

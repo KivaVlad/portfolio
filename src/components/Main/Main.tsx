@@ -5,6 +5,7 @@ import { Home } from "../Home/Home";
 import { NavBar } from "../NavBar/NavBar";
 import { Portfolio } from "../Portfolio/Portfolio";
 import { Skills } from "../Skills/Skills";
+import { BurgerMenu } from "../BurgerMenu/BurgerMenu";
 import styles from './Main.module.scss';
 
 export const Main: React.FC = () => {
@@ -16,15 +17,7 @@ export const Main: React.FC = () => {
                 <div className={activeBurger ? styles.navbar__active : styles.navbar}>
                     <NavBar />
                 </div>
-
-                <div className={activeBurger ? styles.burger__menu_active : styles.burger__menu}>
-                    <input id="toggle" type="checkbox" onClick={() => setActiveBurger(activeBurger = !activeBurger)} />
-                    <label htmlFor="toggle" className={styles.hamburger}>
-                        <div className={styles.top_bun}></div>
-                        <div className={styles.meat}></div>
-                        <div className={styles.bottom_bun}></div>
-                    </label>
-                </div>
+                <BurgerMenu activeBurger={activeBurger} setActiveBurger={setActiveBurger} />
             </div>
 
             <div className={styles.main__content} style={{ opacity: activeBurger ? .2 : 1 }}>
